@@ -1,0 +1,10 @@
+[package]
+name = "genimage"
+version = "0.1.0"
+edition = "2018"
+authors = ["John Nunley <jtnunley01@gmail.com>"]
+description = "Generic byte-based image library"
+repository = "https://github.com/notgull/genimage"
+
+[dependencies]
+bytemuck = { version = "1.12.3", default-features = false }
